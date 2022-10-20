@@ -1,0 +1,186 @@
+/* nunito-regular - latin */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nunito-v25-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/nunito-v25-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/nunito-v25-latin-regular.woff2") format("woff2"), url("../fonts/nunito-v25-latin-regular.woff") format("woff"), url("../fonts/nunito-v25-latin-regular.ttf") format("truetype"), url("../fonts/nunito-v25-latin-regular.svg#Nunito") format("svg"); /* Legacy iOS */
+}
+/* nunito-500 - latin */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/nunito-v25-latin-500.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/nunito-v25-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/nunito-v25-latin-500.woff2") format("woff2"), url("../fonts/nunito-v25-latin-500.woff") format("woff"), url("../fonts/nunito-v25-latin-500.ttf") format("truetype"), url("../fonts/nunito-v25-latin-500.svg#Nunito") format("svg"); /* Legacy iOS */
+}
+/* nunito-700 - latin */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/nunito-v25-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/nunito-v25-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/nunito-v25-latin-700.woff2") format("woff2"), url("../fonts/nunito-v25-latin-700.woff") format("woff"), url("../fonts/nunito-v25-latin-700.ttf") format("truetype"), url("../fonts/nunito-v25-latin-700.svg#Nunito") format("svg"); /* Legacy iOS */
+}
+/* nunito-800 - latin */
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/nunito-v25-latin-800.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/nunito-v25-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/nunito-v25-latin-800.woff2") format("woff2"), url("../fonts/nunito-v25-latin-800.woff") format("woff"), url("../fonts/nunito-v25-latin-800.ttf") format("truetype"), url("../fonts/nunito-v25-latin-800.svg#Nunito") format("svg"); /* Legacy iOS */
+}
+body {
+  font-family: "Nunito";
+}
+
+.site-header {
+  background: linear-gradient(63.56deg, #6B50FF 48.13%, #A145FF 100%);
+}
+
+.hero {
+  padding: 100px 0px;
+  background: linear-gradient(63.56deg, #6B50FF 48.13%, #A145FF 100%);
+}
+
+.advance {
+  padding: 100px 0px;
+  background: #FCFBFF;
+}
+
+.advance-mode {
+  padding: 100px 0px;
+}
+
+.advance-link {
+  max-width: 187px;
+}
+
+.advance-text-box {
+  max-width: 600px;
+}
+
+.advance-img {
+  width: 332px;
+  height: 352px;
+  background-image: url(images/md-advance.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.advance-mode-img {
+  width: 343px;
+  height: 352px;
+  background-image: url(images/md-advance-mode.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.advance-link {
+  text-align: center;
+  color: #FF007A;
+  border: 1px solid #FF007A;
+}
+
+.advance-link:hover {
+  color: #fff;
+  background-color: #FF007A;
+}
+
+.hero-link {
+  padding: 17px 40px;
+  max-width: 187px;
+  text-align: center;
+  color: #fff;
+  background-color: #FF007A;
+  border: 1px solid #FF007A;
+}
+.hero-link:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+.hero-link-video {
+  padding: 17px 40px;
+  max-width: 187px;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #FF007A;
+}
+.hero-link-video:hover {
+  color: #fff;
+}
+.hero-link-video::after {
+  margin-right: 10px;
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-image: url(./images/video-btn.svg);
+  background-repeat: no-repeat;
+  background-size: 18px 18px;
+}
+
+.pricing-item {
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing-item:hover {
+  border: 1px solid #FF007A;
+}
+
+.pricing-link {
+  width: 342px;
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  text-decoration: none;
+  padding: 16px;
+  background-color: #FF007A;
+  color: #fff;
+  border-radius: 50px;
+  border: 1px solid #FF007A;
+}
+.pricing-link:hover {
+  border: 1px solid #FF007A;
+  background-color: transparent;
+  color: #FF007A;
+}
+
+.pricing-order-item {
+  display: flex;
+  margin-bottom: 16px;
+}
+.pricing-order-item::before {
+  display: block;
+  margin-right: 5px;
+  width: 23px;
+  height: 23px;
+  content: "";
+  background-image: url("./images/check.svg");
+  background-repeat: no-repeat;
+  background-size: 23px 23px;
+}
+
+.pricing-price-box {
+  margin-bottom: 31px;
+}
+
+@media only screen and (min-width: 995px) {
+  .advance-img {
+    width: 620px;
+    height: 370px;
+    background-image: url(images/easy-protection.png);
+  }
+  .advance-mode-img {
+    width: 630px;
+    height: 390px;
+    background-image: url(images/protection-mode.png);
+  }
+}/*# sourceMappingURL=main.css.map */
