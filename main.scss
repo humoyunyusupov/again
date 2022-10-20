@@ -84,7 +84,7 @@ body{
 .advance-img{
   width: 332px;
   height: 352px;
-  background-image: url(images/md-advance.png);
+  background-image: url("./images/md-advance.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -92,7 +92,7 @@ body{
 .advance-mode-img{
   width: 343px;
   height: 352px;
-  background-image: url(images/md-advance-mode.png);
+  background-image: url("./images/md-advance-mode.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -123,7 +123,9 @@ body{
   }
 }
 .hero-link-video{
-  padding: 17px 40px;
+  display: flex;
+  align-items: center;
+  padding: 17px;
   max-width: 187px;
   text-align: center;
   color: #fff;
@@ -134,7 +136,8 @@ body{
     
   }
   &::after{
-    margin-right: 10px;
+    display: block;
+    margin-left: 10px;
     content: "";
     width: 18px;
     height: 18px;
@@ -173,36 +176,224 @@ body{
 }
 .pricing-order-item{
   display: flex;
-margin-bottom: 16px; 
-&::before{
-  display: block;
-  margin-right: 5px;
-  width: 23px;
-  height: 23px;
-  content: "";
-  background-image: url("./images/check.svg");
-  background-repeat: no-repeat;
-  background-size: 23px 23px;
-
-}
+  margin-bottom: 16px; 
+  &::before{
+    display: block;
+    margin-right: 5px;
+    width: 23px;
+    height: 23px;
+    content: "";
+    background-image: url("./images/check.svg");
+    background-repeat: no-repeat;
+    background-size: 23px 23px;
+    
+  }
 }
 .pricing-price-box{
   margin-bottom: 31px;
+  
+}
+.software-item{
+  max-width: 300px;
+}
 
+.customer{
+  background-color: #FCFBFF;
+}
+
+
+.customer-title{
+  margin-bottom: 16px !important;
+  font-size: 36px;
+  line-height: 36px;
+  color: #211F25;;
+}
+
+.customer-text{
+  margin-bottom: 30px !important;
+  line-height: 22px;
+  color: #3D3A41;
+}
+
+.customer-item{
+  width: 100%;
+  max-width: 406px;
+  padding: 30.73px;
+  background-color: #F7F5FF;
+  border-radius: 8px;
+  
+  &:not(:last-child){
+    margin-right: 32px;
+  }
+  
+  &::before{
+    display: block;
+    width: 112px;
+    height: 18px;
+    margin-bottom: 30.73px;
+    background-image: url("../../images/stars.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+  }
+}
+
+.customer-item-text{
+  margin-bottom: 30px;
+  color:  #211F25;
+}
+
+.name-wrap{
+  &::before{
+    display: block;
+    width: 54px;
+    height: 54px;
+    margin-right: 15px;
+    background-image: url("./images/brooklyn.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+  }
+}
+
+.slick-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 54px;
+  height: 54px;
+  border: 1px solid #FF007A;
+  border-radius: 48px;
+  background-color: transparent;
+  cursor: pointer;
+  
+  img {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.slick-dots{
+  display: flex;
+  justify-content: center;
+  bottom: -90px !important;
+  list-style-type: none;
+  
+  li{
+    margin: 50px 10px;
+  }
+  
+  button{
+    display: block;
+    width: 7.68px !important;
+    height: 7.68px !important;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: #F4DCDC !important;
+    transition: background-color 0.3s ease;
+    
+    &::before{
+      color: transparent !important;
+    }
+    
+    &:hover{
+      background-color: #FF007A !important;
+    }
+  }
+  
+  li.slick-active button{
+    background-color: #FF007A !important;
+  }
+  
+} 
+
+.input-price{
+  margin-right: 5px;
+  padding: 12px 28px;
+  outline: none;
+  border: none;
+}
+.price-button{
+  padding: 12px 28px;
+  background-color: #FF007A;
+  color: #fff;
+  border: 1px solid #FF007A;
+  &:hover{
+    background: transparent;
+  }
+  
+  
+}
+.pricing{
+  padding-bottom: 0px !important;
+}
+
+.pricing-bottom{
+  background-color: #6B50FF;
+}
+
+.price-mini-text{
+  font-size: small;
+}
+.recent-news{
+  background-color:#F4F4F4;
+}
+
+.recent-view-link{
+  padding: 12px 28px;
+  background-color: #FF007A;
+  border-radius: 50px;
+  color: #fff;
+  border: 1px solid transparent;
+  &:hover{
+    background-color: transparent;
+    color: #FF007A;
+    border: 1px solid #FF007A;
+  }
+}
+.recent-item{
+  max-width: 405px;
+  background: transparent;
+  border-radius: 10px;
+  &:hover{
+    background-color: #fff;
+    box-shadow: 10px 10px 10px 10px #F4F4F4;
+  }
+}
+
+.recent-item-link{
+  color: #FF007A;
+  display: flex;
+  align-items: center;
+  &::after{
+    display: block;
+    margin-left: 5px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-image: url("./images/right-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: 10px 10px;
+  }
+  &:hover{
+    color: #FF007A;
+  }
 }
 
 @media only screen and (min-width:995px) {
-  .advance-img{
-    width: 620px;
-    height: 370px;
-    background-image: url(images/easy-protection.png);
-  }
   
-  .advance-mode-img{
-    width: 630px;
-    height: 390px;
-    background-image: url(images/protection-mode.png);
-  }
   
+}
+@media only screen and (min-width:1200px) {
+  .pricing-list{
+    display: flex;
+    justify-content: space-between;
+  }
+  .software-list{
+    display: flex;
+    justify-content: space-between;
+  }
   
 }

@@ -63,7 +63,7 @@ body {
 .advance-img {
   width: 332px;
   height: 352px;
-  background-image: url("./images/md-advance.png");
+  background-image: url("../images/md-advance.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -72,7 +72,7 @@ body {
 .advance-mode-img {
   width: 343px;
   height: 352px;
-  background-image: url("./images/md-advance-mode.png");
+  background-image: url("../images/md-advance-mode.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -103,9 +103,7 @@ body {
 }
 
 .hero-link-video {
-  display: flex;
-  align-items: center;
-  padding: 17px;
+  padding: 17px 40px;
   max-width: 187px;
   text-align: center;
   color: #fff;
@@ -116,8 +114,7 @@ body {
   color: #fff;
 }
 .hero-link-video::after {
-  display: block;
-  margin-left: 10px;
+  margin-right: 10px;
   content: "";
   width: 18px;
   height: 18px;
@@ -166,7 +163,7 @@ body {
   width: 23px;
   height: 23px;
   content: "";
-  background-image: url("./images/check.svg");
+  background-image: url("../../images/check.svg");
   background-repeat: no-repeat;
   background-size: 23px 23px;
 }
@@ -179,7 +176,7 @@ body {
   max-width: 300px;
 }
 
-.customer {
+.pricing {
   background-color: #FCFBFF;
 }
 
@@ -227,7 +224,7 @@ body {
   width: 54px;
   height: 54px;
   margin-right: 15px;
-  background-image: url("./images/brooklyn.png");
+  background-image: url("../../images/simmons.png");
   background-repeat: no-repeat;
   background-position: center;
   content: "";
@@ -279,80 +276,6 @@ body {
   background-color: #FF007A !important;
 }
 
-.input-price {
-  margin-right: 5px;
-  padding: 12px 28px;
-  outline: none;
-  border: none;
-}
-
-.price-button {
-  padding: 12px 28px;
-  background-color: #FF007A;
-  color: #fff;
-  border: 1px solid #FF007A;
-}
-.price-button:hover {
-  background: transparent;
-}
-
-.pricing {
-  padding-bottom: 0px !important;
-}
-
-.pricing-bottom {
-  background-color: #6B50FF;
-}
-
-.price-mini-text {
-  font-size: small;
-}
-
-.recent-news {
-  background-color: #F4F4F4;
-}
-
-.recent-view-link {
-  padding: 12px 28px;
-  background-color: #FF007A;
-  border-radius: 50px;
-  color: #fff;
-  border: 1px solid transparent;
-}
-.recent-view-link:hover {
-  background-color: transparent;
-  color: #FF007A;
-  border: 1px solid #FF007A;
-}
-
-.recent-item {
-  max-width: 405px;
-  background: transparent;
-  border-radius: 10px;
-}
-.recent-item:hover {
-  background-color: #fff;
-  box-shadow: 10px 10px 10px 10px #F4F4F4;
-}
-
-.recent-item-link {
-  color: #FF007A;
-  display: flex;
-  align-items: center;
-}
-.recent-item-link::after {
-  display: block;
-  margin-left: 5px;
-  content: "";
-  width: 10px;
-  height: 10px;
-  background-image: url("./images/right-arrow.svg");
-  background-repeat: no-repeat;
-  background-size: 10px 10px;
-}
-.recent-item-link:hover {
-  color: #FF007A;
-}
 
 @media only screen and (min-width: 1200px) {
   .pricing-list {
